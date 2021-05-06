@@ -13,7 +13,7 @@ It keeps alert you once the slot is available, so that you can book it 😊
 
 #Configure in application
 
-proxy: true                             // set true if you are on Amdocs vpn
+proxy: true                             // set true if you are on vpn
 <br>
 <br>
 recall: 60                               // set min it will keep checking every 60 mins in gov web side if any slot available for you
