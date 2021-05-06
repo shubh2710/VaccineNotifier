@@ -27,7 +27,7 @@ NotifierService service;
 
     @Scheduled(fixedDelayString = "${ms.reminder}0000", initialDelay = 1000)
     public void reminder() throws AWTException, InterruptedException, IOException {
-        System.out.println("calling api");
+        System.out.println("calling reminder");
         service.reminder();
     }
 
