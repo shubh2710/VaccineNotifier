@@ -26,7 +26,7 @@ public class SslConfiguration {
         if(proxyNeeded){
             SimpleClientHttpRequestFactory requestFactory =
                     new SimpleClientHttpRequestFactory();
-            Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("genproxy", 8080));
+            Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("<your proxy>", 8080));
             requestFactory.setProxy(proxy);
              restTemplate = new RestTemplate(requestFactory);
         }else{

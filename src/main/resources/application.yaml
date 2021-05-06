@@ -1,12 +1,13 @@
 server:
   port: 8211
+
 logging:
   level:
     root: INFO
 
 
 
-proxy: true
+proxy: false
 ms:
   recall: 60
   reminder: 2
