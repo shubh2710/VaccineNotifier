@@ -1,0 +1,22 @@
+server:
+  port: 8211
+logging:
+  level:
+    root: INFO
+
+
+
+proxy: true
+ms:
+  recall: 60
+  reminder: 2
+  info:
+    - age: 18
+      date: 05-05-2021
+      pin: 211003
+      vaccine: covaxin
+    - age: 45
+      date: 05-05-2021
+      pin: 211003
+      vaccine: covishield
+
