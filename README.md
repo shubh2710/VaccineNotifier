@@ -4,9 +4,13 @@ This application to help you to find the vaccine slots.
 It keeps alert you once the slot is available, so that you can book it 😊 
 
 #Steps to run
+<br>
   clone
+ <br>
   clean install
+ <br>
   update application.yaml as your need
+ <br>
   run VaccineNotifireApplication as java application
 
 
